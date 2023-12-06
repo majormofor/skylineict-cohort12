@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ui {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #ede7fd, #f3f1fd);
+  padding: 15px;
+}
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(to right, #ede7fd, #f3f1fd);
+  box-shadow: 0 0 10px rgba(33, 1, 1, 0.1);
+}
+
+.one,
+.two,
+.three {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.one {
+  border: #c9beff solid;
+}
+img {
+  border-radius: 15px;
+}
+
+/* .progress {
+  width: 70%;
+  height: 111px;
+  background: linear-gradient(to right, #29a471, #d0fae6);
+  border-radius: 50px;
+} */
+
+.progress {
+  width: 85%;
+  height: 8px;
+  border-radius: 50px; /* Border radius */
+}
+
+.ui > div progress {
+  width: 85%;
+  height: 100%;
+  background: #2ecc71; /* Green color */
+}
+
+.span {
+  margin-left: 150px;
+  position: relative;
+  bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 15px;
+}
+
+.active {
+  background-color: #6c56ec;
+  color: white;
+}
+.move {
+  margin-left: 550px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #c0bfc3;
+  font-size: 20px;
+}
